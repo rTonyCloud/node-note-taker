@@ -1,26 +1,39 @@
-# Note Taker Starter Code
+# Node-Note-taker
+  ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-Getting Started
-The application should have a db.json file on the back end that will be used to store and retrieve notes using the fs module.
+# Table of Content
+* [Description](#description)
+* [Installation](#installation)
+* [Licenses](#licenses)
+* [Contributors](#contributors)
+* [Questions](#questions)
 
-The following HTML routes should be created:
+## Repo Link
+https://node-notebook.herokuapp.com/notes
 
-GET /notes should return the notes.html file.
+## Description 
+This app will save, edit and delete daily notes.
 
-GET * should return the index.html file.
+## Installation
+npm i install
 
-The following API routes should be created:
+## usage
+install node then run in the terminal node index.js
 
-GET /api/notes should read the db.json file and return all saved notes as JSON.
+## Licenses  
+  This project is licenses under MIT license.
 
-POST /api/notes should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+## test
+npm test
 
-Bonus
-You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
+## languages
+JavaScript,HTML,CSS,ES6,Bootstrap,Node.js
 
-DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
+## Contributors
+There are many ways in which anyone could contribute with resolving bugs, tickets and much more. If you have any questions, or concerns, please contact us under the questions section
 
+## Questions
+If you need to ask me any questions you can contact me at rtonycloud@gmail.com.
+
+ you can view more of my work at [github](https://github.com/Rtonycloud)
