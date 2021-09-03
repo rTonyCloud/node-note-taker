@@ -10,7 +10,7 @@
 * [Questions](#questions)
 
 ## Repo Link
-https://node-notebook.herokuapp.com/notes
+https://node-notebook.herokuapp.com/
 
 ## Description 
 This app will save, edit and delete daily notes.
